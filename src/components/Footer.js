@@ -2,14 +2,14 @@ function Footer() {
   return (
     <div
       style={{
-        backgroundColor: "#111827",
+        backgroundColor: "#134e4a",
         color: "white",
-        padding: "15px",
+        padding: "20px",
         textAlign: "center",
-        marginTop: "20px",
+        marginTop: "40px",
       }}
     >
-      <p>© 2026 Shiva | React Components Assignment</p>
+      <p>© 2026 Sachin | Protegeo Project</p>
     </div>
   );
 }

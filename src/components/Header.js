@@ -2,7 +2,7 @@ function Header({ title }) {
   return (
     <div
       style={{
-        backgroundColor: "#1e40af",
+        backgroundColor: "#0f766e ",
         color: "white",
         padding: "15px",
         textAlign: "center",

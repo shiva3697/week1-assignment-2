@@ -10,15 +10,15 @@ function App() {
   return (
     <div>
       <header className="header">
-        <h1>Shiva</h1>
-        <p> Full Stack Web Developer | AIML Student</p>
+        <h1>Sachin</h1>
+        <p> Full Stack Web Developer</p>
       </header>
 
       <section className="section">
         <h2>About Me</h2>
         <p>
-          I am a B.Tech CSE student specializing in AI & ML with a strong
-          interest in Full Stack Development.
+         I am a B.Tech CSE student passionate about web development and
+building technology solutions that improve user safety and experience.
         </p>
       </section>
 
@@ -34,20 +34,26 @@ function App() {
       <section className="section">
         <h2>Projects</h2>
         <div className="card">
-          <h3>Mentrova App</h3>
-          <p>Mentorship platform built using React Native.</p>
-        </div>
+  <h3>Protegeo - Tourist Safety Platform</h3>
+  <p>
+    A responsive website designed to help tourists access emergency
+    services, location tracking, and safety information.
+  </p>
+</div>
 
-        <div className="card">
-          <h3>Portfolio Website</h3>
-          <p>Responsive website built using React.</p>
-        </div>
+<div className="card">
+  <h3>Responsive Travel Website</h3>
+  <p>
+    Developed a mobile-friendly travel information website using
+    HTML, CSS, JavaScript, and React.
+  </p>
+</div>
       </section>
 
       <section className="section">
         <h2>Contact</h2>
-        <p>Email: shivasingh3697@gmail.com</p>
-        <p>GitHub: github.com/shiva3697</p>
+        <p>Email: sachin@example.com</p>
+        <p>GitHub: github.com/sachin</p>
       </section>
       <hr style={{ margin: "40px 0" }} />
 
@@ -59,19 +65,16 @@ function App() {
   <h2>Reusable Components</h2>
 
   <Card
-    title="Portfolio Website"
-    description="Created using React, HTML and CSS."
-  />
+ title="Protegeo"
+ description="Tourist safety platform developed using React."
+/>
 
   <Card
-    title="Mentrova App"
-    description="Built using React Native."
-  />
+ title="Responsive Travel Website"
+ description="Mobile-friendly travel website."
+/>
 
-  <CustomButton
-    text="Click Me"
-    onClick={() => alert("Button Component Working!")}
-  />
+  
 
   <br /><br />
 
