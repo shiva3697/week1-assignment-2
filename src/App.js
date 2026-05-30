@@ -73,7 +73,10 @@ building technology solutions that improve user safety and experience.
  title="Responsive Travel Website"
  description="Mobile-friendly travel website."
 />
-
+<CustomButton
+  text="Explore Project"
+  onClick={() => alert("Welcome to Protegeo!")}
+/>
   
 
   <br /><br />

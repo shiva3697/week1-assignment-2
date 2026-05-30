@@ -3,7 +3,7 @@ function CustomButton({ text, onClick }) {
     <button
       onClick={onClick}
       style={{
-        backgroundColor: "#2563eb",
+        backgroundColor: "#0f766e",
         color: "white",
         border: "none",
         padding: "10px 20px",
